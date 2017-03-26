@@ -1,0 +1,48 @@
+body {
+	background-color: #dbdbdb;
+	background-image: url("img/cover.jpg");
+}
+
+#top {
+	text-align: center;
+	/*border: solid black 3px;*/
+	margin-bottom: 40px;
+}
+
+#head {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.drop{
+	height: 500px;
+	background-color: #ccccff;
+	border-radius: 4%;
+	color: #EEEEEE;
+}
+
+.ctable{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 3%;
+	background-color: #000099;
+}
+
+form {
+	padding: 2% 5% 0 5%;
+	font-size: 3vh;
+	color: #404040;
+}
+
+#symptoms {
+	height: 420px;
+}
+
+#submit-button {
+	padding: 150px 385px 0px 0px;
+}
+
+#submit {
+	font-size: 70px;
+	border-radius: 30px;
+}

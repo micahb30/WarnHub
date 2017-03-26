@@ -1,3 +1,4 @@
+//testing
 function getDisease() {
 	var symptoms = new Array();
 	var multiSelect = document.getElementById("symptoms");

@@ -1,6 +1,7 @@
 body {
 	background-color: #dbdbdb;
 	background-image: url("img/cover.jpg");
+	background-size: cover;
 	width: 100%;
 	height: 100%;
 }

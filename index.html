@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div id="head"><img src="img/logo.png" id="logo" height="100px"/>
-	<p>Warns you of your medical condition... before it's too late!</p>
+	<p><strong>Warns you of your medical condition... before it's too late!</strong></p>
 	</div>
 	<div class="container ctable">
 				<div class="row">
@@ -30,6 +30,10 @@
 					<div class="drop">
 					<form id="a">
 						<div class="form-group row">
+							<label for="name-input">Full Name</label>
+							<input type="text" class="form-control" id="name-input">
+						</div>
+						<div class="form-group row">
 							<label for="optradio" class="input">Gender</label><br>
 								<label class="radio-inline"><input type="radio" name="optradio">Male</label>
 								<label class="radio-inline"><input type="radio" name="optradio">Female</label>
@@ -45,17 +49,38 @@
 					<div class="row brow form-group">
 						<label for="symptoms">Symptoms</label>
 						<select class="form-control" id="symptoms" multiple="">
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-						<option>5</option>
-						<option>5</option>
-						<option>5</option>
-						<option>5</option>
-						<option>5</option>
-						<option>5</option>
-						<option>5</option>
+						<option value="0">Abdominal Pain</option>
+						<option value="1">Blood/Mucus in Stool</option>
+						<option value="2">Chest Pain</option>
+						<option value="3">Constipation</option>
+						<option value="4">Cough</option>
+						<option value="5">Rash</option>
+						<option value="6">Diarrhea</option>
+						<option value="7">Difficulty Swallowing</option>
+						<option value="8">Dizziness</option>
+						<option value="9">Eye discomfort and redness</option>
+						<option value="10">Foot pain</option>
+						<option value="11">Foot swelling</option>
+						<option value="12">Headaches</option>
+						<option value="13">Heart palpitations</option>
+						<option value="14">Hip pain</option>
+						<option value="15">Knee pain</option>
+						<option value="16">Low back pain</option>
+						<option value="17">Nasal congestion</option>
+						<option value="18">Nausea or vomiting</option>
+						<option value="19">Neck pain</option>
+						<option value="20">Numbness/tingling in hands</option>
+						<option value="21">Wrist pain</option>
+						<option value="22">Fatigue</option>
+						<option value="23">Irregular body temperature</option>
+						<option value="24">Shortness of breath</option>
+						<option value="25">Shoulder pain</option>
+						<option value="26">Sore throat</option>
+						<option value="27">Urinary problems</option>
+						<option value="28">Pelvis pain</option>
+						<option value="29">Hearing problems</option>
+						<option value="30">Vision problems</option>
+						<option value="31">Wheezing</option>
 						</select>
 					</div>
 					</form>
